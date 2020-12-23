@@ -1,0 +1,13 @@
+  for i in rows:
+        t = i.text
+        if t.find("Course Schedule") == -1 and  t != ""  and t != "Click on Schedule to see details": ## does not contain
+            f.write(t + '|')
+        elif t != "" and t.find("Course Schedule") != -1 and t != "Click on Schedule to see details":
+            a = i.find_element_by_tag_name("a").get_attribute('href')
+            driver.get(a)
+            driver.implicitly_wait(1)
+            pre = driver.find_element_by_xpath("/html/body/table/tbody/tr[2]/td[2]/table/tbody/tr[2]/td/table/tbody/tr/td/p[3]")
+            if pre.text.find("Prerequisite:"):
+                f.write(pre.text[pre.text.index('Prerequisite:'):pre.text.index('0.')] + '\n')
+            else:
+                f.write('none' + '\n') 
