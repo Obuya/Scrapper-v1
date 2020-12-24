@@ -10,8 +10,10 @@ from progress.bar import Bar
 import re
 
 
+
 PATH = "chromedriver.exe"
 chromeOptions = Options()
+chromeOptions.add_argument("--log-level=3")
 chromeOptions.headless = True
 driver  = webdriver.Chrome(PATH, options=chromeOptions)
 #driver  = webdriver.Chrome(PATH)
@@ -43,20 +45,23 @@ with Bar('extracting', max=len(row)) as bar:
         l.append(s) 
         bar.next()
         s = ""
-        if len(l) == 50:
-            break
-f=open('pre.txt','w', encoding="utf-8")   
-for line in l:
-    a = re.split("\|", line)
-    driver.get(a[2])
-    #driver.implicitly_wait(5)
-    text = driver.find_element_by_xpath("/html/body/table/tbody/tr[2]/td[2]/table/tbody/tr[2]/td/table/tbody/tr/td/p[3]").text
-    q = re.findall("Prerequisite*", text)
-    if q: 
-     f.write( a[0] + "|" + a[1] + "|" + text[text.index(q[0]):] + '\n')
-    else:
-        f.write(a[0] + "|" + a[1] + "|" +"n/a" + '\n')    
-f.close()
+        #if len(l) == 500:
+            #break
+f=open('pre.txt','w', encoding="utf-8")
+with Bar('getting prerequisites', max=len(l)) as bar:   
+    for line in l:
+        a = re.split("\|", line)
+        driver.get(a[2])
+        driver.implicitly_wait(3)
+        text = driver.find_element_by_xpath("/html/body/table/tbody/tr[2]/td[2]/table/tbody/tr[2]/td/table/tbody/tr/td/p[3]").text
+        q = re.findall("Prerequisite*", text)
+        if q: 
+            f.write( a[0] + "|" + a[1] + "|" + text[text.index(q[0]):] + '\n')
+        else:
+            f.write(a[0] + "|" + a[1] + "|" +"n/a" + '\n')
+        bar.next()    
+    f.close()
+    
 f=open('output.txt','w', encoding="utf-8")
 with Bar('writing', max=len(l)) as bar:
     for element in l:
