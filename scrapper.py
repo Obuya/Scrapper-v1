@@ -12,9 +12,12 @@ from progress.bar import Bar
 PATH = "chromedriver.exe"
 chromeOptions = Options()
 chromeOptions.headless = True
-##driver  = webdriver.Chrome(PATH, options=chromeOptions)
-driver  = webdriver.Chrome(PATH)
-driver.get("https://w2prod.sis.yorku.ca/Apps/WebObjects/cdm.woa/3/wo/wlYptRSMDslhLwcbsgbyXw/2.3.4.11.0")
+driver  = webdriver.Chrome(PATH, options=chromeOptions)
+#driver  = webdriver.Chrome(PATH)
+driver.get("https://w2prod.sis.yorku.ca/Apps/WebObjects/cdm")
+
+driver.find_element_by_xpath("/html/body/p/table/tbody/tr[2]/td[1]/table/tbody/tr[4]").click()
+driver.implicitly_wait(5)
 
 
 driver.find_element_by_xpath("/html/body/table/tbody/tr[2]/td[2]/table/tbody/tr[2]/td/table/tbody/tr/td/form/table/tbody/tr[2]/td[2]/select/option[28]").click()
@@ -23,10 +26,11 @@ driver.implicitly_wait(5)
 
 table = driver.find_element_by_xpath("/html/body/table/tbody/tr[2]/td[2]/table/tbody/tr[2]/td/table/tbody/tr/td/table[2]/tbody")
 rows = table.find_elements_by_tag_name("td")
-f = open("test1.txt", "a", encoding="utf-8")
+row = table.find_elements_by_tag_name("tr")
+#f = open("test1.txt", "a", encoding="utf-8")
 l = []
 s = ""
-with Bar('extracting', max=len(rows)) as bar:
+with Bar('extracting', max=len(row)) as bar:
     for text in rows:
         t = text.text
         if t.find("Course Schedule") == -1 and  t != ""  and t != "Click on Schedule to see details": ## does not contain
@@ -35,8 +39,17 @@ with Bar('extracting', max=len(rows)) as bar:
             a = text.find_element_by_tag_name("a").get_attribute('href')
             s += a + '\n'
             l.append(s) 
+            bar.next()
             s = ""
-        bar.next()
+        if len(l) == 100:
+                break
+        
+        
+f=open('output.txt','w')
+
+for element in l:
+    f.write(element)
+    
 
 
 
