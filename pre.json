@@ -1,0 +1,252 @@
+{
+    "SB/ACTG 2011": {
+        "credit": "3.00",
+        "title": "Introduction To Financial Actg II",
+        "Prerequisites": "Prerequisite: SB/ ACTG 2010 3.00. Course Credit Exclusion: GL/ECON 2710 3.00."
+    },
+    "SB/ACTG 2020": {
+        "credit": "3.00",
+        "title": "Management Accounting Concepts",
+        "Prerequisites": "n/a"
+    },
+    "SB/ACTG 3000": {
+        "credit": "3.00",
+        "title": "Financial Reporting and Analysis",
+        "Prerequisites": "Prerequisite: SB/ACTG 2011 3.00"
+    },
+    "SB/ACTG 3120": {
+        "credit": "3.00",
+        "title": "Intermediate Financial Accounting II",
+        "Prerequisites": "Prerequisite: SB/ACTG 3110 3.00."
+    },
+    "SB/ACTG 4200": {
+        "credit": "3.00",
+        "title": "Contemporary Issues In Accounting",
+        "Prerequisites": "Prerequisite: SB/ACTG 3110 3.00"
+    },
+    "SB/ACTG 4400": {
+        "credit": "3.00",
+        "title": "Managerial Cost Accounting & Analysis",
+        "Prerequisites": "Prerequisite: SB/ACTG 2020 3.00"
+    },
+    "SB/ACTG 4720": {
+        "credit": "3.00",
+        "title": "Advanced Income Taxation",
+        "Prerequisites": "Prerequisite: SB/ACTG 4710 3.00."
+    },
+    "SB/ACTG 4900": {
+        "credit": "3.00",
+        "title": "Guided Study - Selected Problems in Accounting",
+        "Prerequisites": "n/a"
+    },
+    "GS/ADLW 6740": {
+        "credit": "6.00",
+        "title": "Overview and Current Developments",
+        "Prerequisites": "n/a"
+    },
+    "AP/ADMS 1000": {
+        "credit": "3.00",
+        "title": "Introduction to Business",
+        "Prerequisites": "n/a"
+    },
+    "AP/ADMS 1010": {
+        "credit": "3.00",
+        "title": "Exploring the Functions of Business",
+        "Prerequisites": "n/a"
+    },
+    "AP/ADMS 1500": {
+        "credit": "3.00",
+        "title": "An Introduction to Accounting for Human Resource Professionals",
+        "Prerequisites": "n/a"
+    },
+    "AP/ADMS 1550": {
+        "credit": "3.00",
+        "title": "Accounting for Non-Financial Managers",
+        "Prerequisites": "n/a"
+    },
+    "AP/ADMS 1701": {
+        "credit": "3.00",
+        "title": "Disasters: Case Studies of Causes and Impacts",
+        "Prerequisites": "n/a"
+    },
+    "AP/ADMS 2200": {
+        "credit": "3.00",
+        "title": "Introductory Marketing",
+        "Prerequisites": "n/a"
+    },
+    "AP/ADMS 2310": {
+        "credit": "3.00",
+        "title": "Business Statistics Through Applications",
+        "Prerequisites": "n/a"
+    },
+    "AP/ADMS 2320": {
+        "credit": "3.00",
+        "title": "Business Statistics",
+        "Prerequisites": "Prerequisites: AP/ADMS 1000 3.00; one 12U mathematics course or equivalent. Course credit exclusion: AP/ECON 2500 3.00."
+    },
+    "AP/ADMS 2400": {
+        "credit": "3.00",
+        "title": "Introduction to Organizational Behaviour",
+        "Prerequisites": "Prerequisites: AP/ADMS 1000 3.00 and AP/ADMS1010 3.00; For students in the BHRM program, AP/HRM1000. For BDEM and BPA students, AP/ADMS 1000 3.00. Course credit exclusion: HH/PSYC 3570 3.00."
+    },
+    "AP/ADMS 2500": {
+        "credit": "3.00",
+        "title": "Introduction to Financial Accounting",
+        "Prerequisites": "n/a"
+    },
+    "AP/ADMS 2510": {
+        "credit": "3.00",
+        "title": "Introduction to Management Accounting",
+        "Prerequisites": "Prerequisites: 1) AP/ECON 1000 3.00; 2) AP/ADMS 2500 3.00 and 3) AP/ADMS 2320 3.00. Course credit exclusions: AP/ADMB 2510 3.00, AP/ADMS 1500 3.00, AP/ADMS 1550 3.00, GL/ECON 2720 3.00."
+    },
+    "AP/ADMS 2511": {
+        "credit": "3.00",
+        "title": "Management Information Systems",
+        "Prerequisites": "Prerequisite: AP/ADMS 1000 3.00. Course credit exclusion: AP/ADMB 2511 3.00."
+    },
+    "AP/ADMS 2541": {
+        "credit": "3.00",
+        "title": "Introduction to Personal Finance",
+        "Prerequisites": "n/a"
+    },
+    "AP/ADMS 2600": {
+        "credit": "3.00",
+        "title": "Human Resources Management",
+        "Prerequisites": "Prerequisite: AP/ADMS 1000 3.00 (students in the BCOM/BHRM programs, the HRM Certificate or the HRM Minor may take AP/ADMS 1000 3.00 concurrently with AP/ADMS/HRM 2600 3.00). Prior TO FALL 2009: Prerequisite: AK/ADMS 1000 3.00 (students in the BCOM/BHRM programs may take AK/ADMS 1000 3.00 concurrently with AK/ADMS 2600 3.00). Course credit exclusions: AK/ADMS 2600 3.00, AK/ADMS 3480 3.00 (prior to Summer 2001)."
+    },
+    "AP/ADMS 2610": {
+        "credit": "3.00",
+        "title": "Elements of Law: Part One",
+        "Prerequisites": "Prerequisite: AP/ADMS 1000 3.00. PRIOR TO FALL 2013: Course credit exclusion: AP/POLS 3165 6.00."
+    },
+    "AP/ADMS 2700": {
+        "credit": "3.00",
+        "title": "Fundamentals of Emergency Management",
+        "Prerequisites": "n/a"
+    },
+    "AP/ADMS 3000": {
+        "credit": "3.00",
+        "title": "Directed Reading",
+        "Prerequisites": "Prerequisites: 78 credits including AP/ADMS 1000 3.00, AP/ECON 1000 3.00, AP/ECON 1010 3.00, and six credits in management science, or, for students with equivalent preparation, permission of the Director of the School of Administrative Studies. Note: Students must be accepted by a faculty supervisor before they can register in this course. The course transaction form for such courses must be submitted with a note from the supervisor stating his/her willingness to perform this task. Permission of the Director of the School of Administrative Studies is also required."
+    },
+    "AP/ADMS 3010": {
+        "credit": "0.00",
+        "title": "Internship Work Term",
+        "Prerequisites": "n/a"
+    },
+    "AP/ADMS 3015": {
+        "credit": "3.00",
+        "title": "Professional Communication in the Canadian Context",
+        "Prerequisites": "n/a"
+    },
+    "AP/ADMS 3020": {
+        "credit": "3.00",
+        "title": "Canadian Business Culture and Management Skills",
+        "Prerequisites": "Prerequisite: Score of 5.5 on YELT or equivalent. Course credit exclusions: AP/ADMS 1000 3.00, AP/ADMS 2400 3.00, AP/ADMS 3040 3.00, AP/ADMS 3930 3.00, AP/HRM 3440 3.00."
+    },
+    "AP/ADMS 3120": {
+        "credit": "3.00",
+        "title": "Gender Issues in Management",
+        "Prerequisites": "n/a"
+    },
+    "AP/ADMS 3210": {
+        "credit": "3.00",
+        "title": "Consumer Behaviour",
+        "Prerequisites": "Prerequisites: 1) For students in an Honours program, AP/ADMS 2200 3.00, or 2) other students, a grade of C+ or better in AP/ADMS 2200 3.00. Course credit exclusion: AP/ADMS 4220 3.00 (prior to Fall 2012)."
+    },
+    "AP/ADMS 3220": {
+        "credit": "3.00",
+        "title": "Applied Marketing Management",
+        "Prerequisites": "Prerequisites: 1) For students in an Honours program AP/ADMS 2200 3.00, or 2) other students, a grade of C+ or better in AP/ADMS 2200 3.00."
+    },
+    "AP/ADMS 3300": {
+        "credit": "3.00",
+        "title": "Decision Analysis",
+        "Prerequisites": "Prerequisites: AP/ADMS 2320 3.00 or equivalent."
+    },
+    "AP/ADMS 3330": {
+        "credit": "3.00",
+        "title": "Introduction to Management Science",
+        "Prerequisites": "Prerequisite: AP/ADMS 2320 3.00. Course credit exclusion: AP/ADMB 3330 3.00."
+    },
+    "AP/ADMS 3351": {
+        "credit": "3.00",
+        "title": "Operations Management",
+        "Prerequisites": "Prerequisite: AP/ADMS 2320 3.00."
+    },
+    "AP/ADMS 3352": {
+        "credit": "3.00",
+        "title": "Sampling Techniques and Survey Design",
+        "Prerequisites": "Prerequisite: AP/ECON 2500 3.00 or AP/ADMS 2320 3.00, or, for students with equivalent preparation, permission of the coordinator. Note: This course counts as an elective in an economics major."
+    },
+    "AP/ADMS 3353": {
+        "credit": "3.00",
+        "title": "Project Management",
+        "Prerequisites": "n/a"
+    },
+    "AP/ADMS 3370": {
+        "credit": "3.00",
+        "title": "Advanced Spreadsheets for Business Applications",
+        "Prerequisites": "Prerequisites: AP/ADMS 2320 3.00 and AP/ADMS 2500 3.00"
+    },
+    "AP/ADMS 3400": {
+        "credit": "3.00",
+        "title": "Occupational Health and Safety",
+        "Prerequisites": "Prerequisite: AP/ADMS 1000 3.00, for all BCOM and BCOM Honours students. Prior TO FALL 2009: Prerequisite: AK/ADMS 1000 3.00, for all BCOM and BCOM Honours students. Course credit exclusions: AK/ADMS 3400 3.00, AK/HLST 3240 3.00 prior to F/W 2008."
+    },
+    "AP/ADMS 3410": {
+        "credit": "3.00",
+        "title": "Training and Development",
+        "Prerequisites": "Prerequisites: AP/ADMS 1000 3.00, AP/ADMS 2400 3.00, and AP/HRM 2600 3.00."
+    },
+    "AP/ADMS 3420": {
+        "credit": "3.00",
+        "title": "Employment Law",
+        "Prerequisites": "Prerequisite: AP/HRM 2600 3.00."
+    },
+    "AP/ADMS 3422": {
+        "credit": "3.00",
+        "title": "Industrial Relations",
+        "Prerequisites": "Prerequisite: AP/ADMS 2400 3.00."
+    },
+    "AP/ADMS 3430": {
+        "credit": "3.00",
+        "title": "Human Resources Planning",
+        "Prerequisites": "Prerequisite: AP/HRM 2600 3.00."
+    },
+    "AP/ADMS 3440": {
+        "credit": "3.00",
+        "title": "Leadership and Management Skills",
+        "Prerequisites": "Prerequisites: AP/ADMS 1000 3.00, AP/ADMS 2400 3.00, and AP/HRM 2600 3.00."
+    },
+    "AP/ADMS 3450": {
+        "credit": "3.00",
+        "title": "Equity, Diversity and Inclusion in the Workplace",
+        "Prerequisites": "Prerequisite: AP/HRM 2600 3.00."
+    },
+    "AP/ADMS 3470": {
+        "credit": "3.00",
+        "title": "Recruitment, Selection and Performance Appraisal of Personnel",
+        "Prerequisites": "Prerequisite: AP/HRM 2600 3.00."
+    },
+    "AP/ADMS 3490": {
+        "credit": "3.00",
+        "title": "Compensation",
+        "Prerequisites": "Prerequisite: AP/HRM 2600 3.00."
+    },
+    "AP/ADMS 3510": {
+        "credit": "3.00",
+        "title": "Managerial Cost Accounting and Analysis",
+        "Prerequisites": "Prerequisites: AP/ADMS 2320 3.00, AP/ADMS 2500 3.00, AP/ADMS 2510 3.00; AP/ECON 1000 3.00, AP/ECON 1010 3.00."
+    },
+    "AP/ADMS 3511": {
+        "credit": "3.00",
+        "title": "Business Analytics: Introduction, Methods and Practical Approaches",
+        "Prerequisites": "Prerequisites: AP/ADMS 2320 3.00, AP/ADMS 2511 3.00."
+    },
+    "AP/ADMS 3520": {
+        "credit": "3.00",
+        "title": "An Overview of Canadian Income Taxation",
+        "Prerequisites": "n/a"
+    }
+}

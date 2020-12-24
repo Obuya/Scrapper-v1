@@ -6,13 +6,13 @@ import json
   
   
 # the file to be converted 
-filename = 'test1.txt'
+filename = 'pre.txt'
   
 # resultant dictionary 
 dict1 = {} 
   
 # fields in the sample file  
-fields =['credit', 'title', 'link'] 
+fields =['credit', 'title', 'Prerequisites'] 
   
 with open(filename) as fh: 
       
@@ -50,6 +50,6 @@ with open(filename) as fh:
   
   
 # creating json file         
-out_file = open("courses1.json", "w") 
+out_file = open("pre.json", "w") 
 json.dump(dict1, out_file, indent = 4) 
 out_file.close() 
